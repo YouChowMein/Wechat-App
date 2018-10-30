@@ -1,0 +1,24 @@
+/**index.wxss**/
+/*wxss:wei xin style sheet*/
+/*完全遵循css语法，单位这点比css高级*/
+/*用于定义页面样式*/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
