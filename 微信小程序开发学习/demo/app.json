@@ -4,9 +4,31 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor":"#ff0",
-    "navightionBarBackTitleText":"Hello world",
-    "navigationBarTextStyle":"#f40"
+    "navigationBarBackgroundColor": "#219bf3",
+    "navigationBarTextStyle":"#ff1",
+    "navightionBarTitleText":"Hello world",
+    "backgroundColor":"#f0f",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh":true
+  },
+  "debug":true,
+  "tabBar":{
+    "color":"#444",
+    "selectedColor":"#219bf3",
+    "backgroundColor":"#e0e0e0",
+    "borderStyle": "white",
+    
+    "list":[
+      {
+        "text":"Home",
+        "pagePath":"pages/index/index",
+        "iconPath":"images/home.png"
+      },
+      {
+          "text": "Logs",
+          "pagePath": "pages/logs/logs",
+          "iconPath":"images/note.png"
+      }
+    ]
   }
 }
